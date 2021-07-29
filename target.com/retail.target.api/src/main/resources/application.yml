@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+  data:
+    cassandra:
+      keyspace-name: myretail
+      port: 9042
+      contact-points: [ "localhost" ]
+
+api:
+  product:
+    baseurl: https://redsky.target.com
+    url: /v2/pdp/tcin/{productId}
+    connectionTimeOut: 1000
+    readTimeOut: 4000
+    keepAlive: true
+
+isCachable: false
+
+server:
+  port: 8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "health","info","metrics" ]
+  endpoint:
+    mappings:
+      enabled: true
+
+---
+spring:
+  profiles: test
+
+

@@ -1,0 +1,64 @@
+{
+  "info": {
+    "_postman_id": "59c50b59-2760-4f6d-a27f-84c2b2a00d11",
+    "name": "RetailApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8083/products/13860428",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:8083/products/13860428",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "products",
+            "13860428"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8083/products/13860428",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "name": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"id\": 13860428,\n\t\"name\": \"The Big Lebowski (Blu-ray)\",\n\t \"current_price\": {\n\t \t   \"value\": 630,\n        \"currency_code\": \"USD\"\n    }\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8083/products/13860428",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "products",
+            "13860428"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
