@@ -34,8 +34,8 @@ Note:
 If you are running this from the main method in the java file or running the test cases seperately. Please perform the
 following:
 
-- Install Lombok plugin in your IDE to suppor the @Slf4j and @Data annotations.
-- Enable annotation processing in IntelliJ IDE in the perferences menu.
+- Install Lombok plugin in your IDE to support the @Slf4j and @Data annotations.
+- Enable annotation processing in IntelliJ IDE in the preferences menu.
 
 # Endpoints:
 
@@ -55,11 +55,3 @@ Body:
 "value": 15130,
 "currency_code": "USD"
 } }
-
-# METRICS
-
-http://localhost:8083/actuator/metrics
-
-# HEALTH
-
-http://localhost:8083/actuator/health
