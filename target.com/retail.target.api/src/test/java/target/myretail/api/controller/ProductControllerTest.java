@@ -39,10 +39,10 @@ public class ProductControllerTest {
     WebTestClient webTestClient;
 
     public List<ProductTable> data() {
-        List<ProductTable> productList = Arrays.asList(new ProductTable(13860428l, new BigDecimal(1300.00), new Date()),
-                new ProductTable(13860429l, new BigDecimal(2300.00), new Date()),
-                new ProductTable(14860429l, new BigDecimal(3300.00), new Date()),
-                new ProductTable(15860429l, new BigDecimal(3300.00), new Date()));
+        List<ProductTable> productList = Arrays.asList(new ProductTable(13860428, new BigDecimal(1300.00), new Date()),
+                new ProductTable(54456119, new BigDecimal(2300.00), new Date()),
+                new ProductTable(13264003, new BigDecimal(3300.00), new Date()),
+                new ProductTable(12954218, new BigDecimal(3300.00), new Date()));
         return productList;
     }
 
