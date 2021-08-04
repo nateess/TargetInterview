@@ -10,7 +10,7 @@ spring:
 api:
   product:
     baseurl: https://redsky.target.com
-    url: /v2/pdp/tcin/{productId}
+    url: /v3/pdp/tcin/{productId}
     connectionTimeOut: 1000
     readTimeOut: 4000
     keepAlive: true
