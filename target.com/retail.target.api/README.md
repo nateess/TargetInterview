@@ -41,7 +41,7 @@ following:
 
 # GET
 
-http://localhost:8083/products/13860429
+http://localhost:8083/products/13860428
 
 # UPDATE
 
